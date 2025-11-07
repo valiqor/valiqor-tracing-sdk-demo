@@ -1,0 +1,37 @@
+{
+  "eval_id": "eval_demo_001",
+  "query": "What were the key financial highlights for Q3 2024?",
+  "response": "Q3 2024 showed strong performance with 18% revenue growth year-over-year, reaching $4.2B. Operating margin improved to 22%, and the company expanded into 3 new markets.",
+  "evaluation": {
+    "relevance": {
+      "score": 0.92,
+      "reasoning": "Response directly addresses the query with specific Q3 metrics",
+      "passed": true
+    },
+    "accuracy": {
+      "score": 0.88,
+      "reasoning": "Numbers align with source documents, minor rounding differences",
+      "passed": true
+    },
+    "completeness": {
+      "score": 0.85,
+      "reasoning": "Covers major highlights but omits some secondary metrics",
+      "passed": true
+    },
+    "citation_quality": {
+      "score": 0.90,
+      "citations_found": 3,
+      "sources_used": ["Q3_earnings_report.pdf", "investor_presentation.pdf", "press_release.pdf"],
+      "passed": true
+    }
+  },
+  "overall_score": 0.89,
+  "status": "passed",
+  "timestamp": "2025-01-15T10:30:51Z",
+  "metadata": {
+    "model": "gpt-4",
+    "cost_usd": 0.0087,
+    "latency_ms": 2100,
+    "retrieval_latency_ms": 234
+  }
+}
