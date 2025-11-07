@@ -1,0 +1,9 @@
+# Valiqor Trace SDK - Development Dependencies
+# For production use, no external dependencies required!
+
+# Testing
+pytest>=7.0
+pytest-cov>=4.0
+
+# Linting
+ruff>=0.1.0

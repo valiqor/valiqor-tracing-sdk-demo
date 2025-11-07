@@ -1,0 +1,135 @@
+{
+  "repo_path": "C:\\Users\\suyogtrivedi\\VSCode\\valiqor-tracing-library-main-07Nov\\valiqor-trace-sdk",
+  "scan_timestamp": "2025-11-07T05:34:13.429852Z",
+  "file_count": 19,
+  "total_size_bytes": 45845,
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 1635,
+      "extension": ".toml"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 7360,
+      "extension": ".md"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 175,
+      "extension": ".txt"
+    },
+    {
+      "path": "examples/eval_output.json",
+      "size_bytes": 1212,
+      "extension": ".json"
+    },
+    {
+      "path": "examples/simple_rag_demo.py",
+      "size_bytes": 2262,
+      "extension": ".py"
+    },
+    {
+      "path": "tests/test_context_scanner.py",
+      "size_bytes": 4409,
+      "extension": ".py"
+    },
+    {
+      "path": "tests/test_trace_minimal.py",
+      "size_bytes": 4605,
+      "extension": ".py"
+    },
+    {
+      "path": "valiqor/cli.py",
+      "size_bytes": 3385,
+      "extension": ".py"
+    },
+    {
+      "path": "valiqor/context_scanner.py",
+      "size_bytes": 5122,
+      "extension": ".py"
+    },
+    {
+      "path": "valiqor/redact.py",
+      "size_bytes": 4439,
+      "extension": ".py"
+    },
+    {
+      "path": "valiqor/trace.py",
+      "size_bytes": 6015,
+      "extension": ".py"
+    },
+    {
+      "path": "valiqor/__init__.py",
+      "size_bytes": 294,
+      "extension": ".py"
+    },
+    {
+      "path": "valiqor/sinks/file_sink.py",
+      "size_bytes": 4242,
+      "extension": ".py"
+    },
+    {
+      "path": "valiqor/sinks/__init__.py",
+      "size_bytes": 101,
+      "extension": ".py"
+    },
+    {
+      "path": "valiqor_trace_sdk.egg-info/dependency_links.txt",
+      "size_bytes": 1,
+      "extension": ".txt"
+    },
+    {
+      "path": "valiqor_trace_sdk.egg-info/entry_points.txt",
+      "size_bytes": 45,
+      "extension": ".txt"
+    },
+    {
+      "path": "valiqor_trace_sdk.egg-info/requires.txt",
+      "size_bytes": 47,
+      "extension": ".txt"
+    },
+    {
+      "path": "valiqor_trace_sdk.egg-info/SOURCES.txt",
+      "size_bytes": 488,
+      "extension": ".txt"
+    },
+    {
+      "path": "valiqor_trace_sdk.egg-info/top_level.txt",
+      "size_bytes": 8,
+      "extension": ".txt"
+    }
+  ],
+  "prompts": [],
+  "structure": {
+    "pyproject.toml": 1635,
+    "README.md": 7360,
+    "requirements.txt": 175,
+    "examples": {
+      "eval_output.json": 1212,
+      "simple_rag_demo.py": 2262
+    },
+    "tests": {
+      "test_context_scanner.py": 4409,
+      "test_trace_minimal.py": 4605
+    },
+    "valiqor": {
+      "cli.py": 3385,
+      "context_scanner.py": 5122,
+      "redact.py": 4439,
+      "trace.py": 6015,
+      "__init__.py": 294,
+      "sinks": {
+        "file_sink.py": 4242,
+        "__init__.py": 101
+      }
+    },
+    "valiqor_trace_sdk.egg-info": {
+      "dependency_links.txt": 1,
+      "entry_points.txt": 45,
+      "requires.txt": 47,
+      "SOURCES.txt": 488,
+      "top_level.txt": 8
+    }
+  }
+}

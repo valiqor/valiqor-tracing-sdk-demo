@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valiqor-trace-sdk"
+version = "1.0.0"
+description = "Local AI workflow tracing SDK for demos and MVPs"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Valiqor Team", email = "contact@valiqor.com"}
+]
+keywords = ["ai", "tracing", "llm", "observability", "rag", "demo"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+valiqor = "valiqor.cli:main"
+
+[project.urls]
+Homepage = "https://valiqor.com"
+Documentation = "https://github.com/valiqor/valiqor-trace-sdk"
+Repository = "https://github.com/valiqor/valiqor-trace-sdk"
+Issues = "https://github.com/valiqor/valiqor-trace-sdk/issues"
+
+[tool.setuptools.packages.find]
+include = ["valiqor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
